@@ -17,5 +17,5 @@ famous_person = "Rene Descartes "
 #Adding the famous quote to the famous name
 print(famous_person + "once said, " + quote)
 
-#Now removing all the white spaces for chaos!
+#Now removing name white spaces for chaos!
 print(famous_person.strip() + "once said, " + quote)
