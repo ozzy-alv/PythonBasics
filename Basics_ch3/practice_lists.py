@@ -23,3 +23,19 @@ print(message_two)
 print(message_three)
 print(message_four)
 
+#now think of your favorite mode of transportation and make a list that stores several examples then print a series of statements for each
+
+#car lists
+cars = ['tesla', 'mercedes', 'bmw', 'hyundai']
+
+#car statements
+car_one = cars[0].title() + "'s" + " are cool but the cybertruck looks like a roblox vehicle."
+car_two = "I think in terms of class driving a " + cars[1].title() + " gives you a luxurious experience."
+car_three = "My parents bought a brand new " + cars[2].title()
+car_four = "I am emotionally attached to my " + cars[3].title() + " I don't think I'll ever let her go..."
+
+#printing the car statements 
+print(car_one)
+print(car_two)
+print(car_three)
+print(car_four)
