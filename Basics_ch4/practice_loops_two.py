@@ -23,5 +23,11 @@ print(threes)
 
 #make a list of the cubes from the numbers 1-10
 
+cubes = []
+for n in range(1, 11):
+    cubes.append(n**3)
+print(cubes)
+
+#now make a list comprehension of the previous problem
 cubes = [n**3 for n in range(1, 11)]
 print(cubes)
