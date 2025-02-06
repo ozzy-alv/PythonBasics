@@ -20,3 +20,8 @@ print(odd_numbers)
 
 threes = [n*3 for n in range(1, 11)]
 print(threes)
+
+#make a list of the cubes from the numbers 1-10
+
+cubes = [n**3 for n in range(1, 11)]
+print(cubes)
