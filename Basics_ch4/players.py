@@ -19,3 +19,9 @@ print(players[3:])
 #negative values print starting from the end of the list
 print(players[-3:])
 
+#now that we have created a subset using slice, we can also loop over the subset of elements in the list
+
+#loop over the first three players in the subset of the array
+
+for player in players[-3:]:
+    print(f"The best player in the team is {player}")
